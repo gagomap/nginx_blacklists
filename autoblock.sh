@@ -17,6 +17,9 @@ mkdir -p /home/gagomap/tools/referrer_spam
 ### ###More spam blacklist from cba85
 \curl -sSL https://raw.githubusercontent.com/cba85/nginx-spam-referral/master/blacklist.conf > /etc/nginx/conf.d/cba85-nginx-referer-spam.conf
 
+### More bots blocker from gagomap
+\curl -sSL https://raw.githubusercontent.com/gagomap/nginx-block-bots/master/block.conf > /etc/nginx/conf.d/block.conf
+
 ### Create Piwik blacklist
 chmod +x /home/gagomap/tools/referrer_spam/nginx-refspam-config-gen.py
 /home/gagomap/tools/referrer_spam/nginx-refspam-config-gen.py -f
