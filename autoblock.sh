@@ -14,7 +14,7 @@ mkdir -p /home/gagomap/tools/referrer_spam
 ### More nginx blacklist from mariusv (gagomap clone to allow msnbot and yandex)
 \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-badbot-blocker/master/blacklist.conf > /etc/nginx/conf.d/nginx-badbot-blocker.conf
 
-### ###More spam blacklist from cba85
+### ###More spam blacklist from cba85 (gagomap clone to allow yandex)
 \curl -sSL https://raw.githubusercontent.com/cba85/nginx-spam-referral/master/blacklist.conf > /etc/nginx/conf.d/cba85-nginx-referer-spam.conf
 
 ### More bots blocker from gagomap
