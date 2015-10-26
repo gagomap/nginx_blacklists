@@ -23,3 +23,6 @@ mkdir -p /home/gagomap/tools/referrer_spam
 ### Create Piwik blacklist
 chmod +x /home/gagomap/tools/referrer_spam/nginx-refspam-config-gen.py
 /home/gagomap/tools/referrer_spam/nginx-refspam-config-gen.py -f
+
+## Restart Nginx
+nginx -t && service nginx restart
