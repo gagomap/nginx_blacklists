@@ -14,11 +14,11 @@ mkdir -p /home/gagomap/tools/referrer_spam
 ### More nginx blacklist from mariusv (gagomap clone to allow msnbot and yandex)
 \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-badbot-blocker/master/blacklist.conf > /etc/nginx/conf.d/nginx-badbot-blocker.conf
 
-### ###More spam blacklist from cba85 (gagomap clone to allow yandex)
-\curl -sSL https://raw.githubusercontent.com/gagomap/nginx-spam-referral/master/blacklist.conf > /etc/nginx/conf.d/cba85-nginx-referer-spam.conf
+### ###More spam blacklist from cba85 (gagomap clone to allow yandex) (removed it)
+### \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-spam-referral/master/blacklist.conf > /etc/nginx/conf.d/cba85-nginx-referer-spam.conf
 
-### More bots blocker from gagomap (removed)
-### \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-block-bots/master/block.conf > /etc/nginx/conf.d/block.conf
+### More bots blocker from gagomap
+\curl -sSL https://raw.githubusercontent.com/gagomap/nginx-block-bots/master/block.conf > /etc/nginx/conf.d/block.conf
 
 ### Create Piwik blacklist
 chmod +x /home/gagomap/tools/referrer_spam/nginx-refspam-config-gen.py
