@@ -8,11 +8,11 @@ mkdir -p /home/gagomap/tools/referrer_spam
 ### More nginx blacklist from oohnoitz (gagomap clone to allow yandex)
 \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-blacklist/master/blacklist.conf > /etc/nginx/conf.d/blacklist.conf
 
-###More spam blacklist from Stevie-Ray
+### More spam blacklist from Stevie-Ray
 \curl -sSL https://raw.githubusercontent.com/Stevie-Ray/apache-nginx-referral-spam-blacklist/master/referral-spam.conf > /etc/nginx/conf.d/referral-spam.conf
 
 ### More nginx blacklist from mariusv (gagomap clone to allow msnbot and yandex)
-\curl -sSL https://raw.githubusercontent.com/gagomap/nginx-badbot-blocker/master/blacklist.conf > /etc/nginx/conf.d/nginx-badbot-blocker.conf
+### \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-badbot-blocker/master/blacklist.conf > /etc/nginx/conf.d/nginx-badbot-blocker.conf
 
 ### ###More spam blacklist from cba85 (gagomap clone to allow yandex) (removed it)
 ### \curl -sSL https://raw.githubusercontent.com/gagomap/nginx-spam-referral/master/blacklist.conf > /etc/nginx/conf.d/cba85-nginx-referer-spam.conf
